@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>org.example.PyCharm_VariableType_Plugin_V1</id>
+
+    <!-- Public plugin name should be written in Title Case. -->
+    <name>PyCharm Variable Type Plugin</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="orestsaban@gmail.com" url="https://github.com/OrestSaban">Orest Saban</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.-->
+    <description><![CDATA[
+        This plugin shows the data type of variable under the caret in the status bar.<br>
+        <em>most HTML tags may be used</em>
+        ]]>
+    </description>
+
+    <!-- Product and plugin compatibility requirements.-->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.-->
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+</idea-plugin>
