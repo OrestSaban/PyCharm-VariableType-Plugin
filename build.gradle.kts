@@ -1,3 +1,5 @@
+//package
+
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.25"
     id("org.jetbrains.intellij") version "1.17.4"
@@ -13,6 +15,8 @@ repositories {
 intellij {
     version.set("2023.2")
     type.set("PC")
+
+    plugins.set(listOf())
 }
 
 tasks {

@@ -19,6 +19,9 @@
 
     <!-- Extension points defined by the plugin.-->
     <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory implementation="org.example.pycharm_variabletype_plugin_v1.MyStatusBarWidgetFactory"/>
+<!--        <statusBarWidgetProvider implementation="org.example.pycharm_variabletype_plugin_v1.MyStatusBarWidgetFactory"/>-->
+
 
     </extensions>
 </idea-plugin>
